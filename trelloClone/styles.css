@@ -27,6 +27,7 @@ body {
   border-radius: 20px;
   padding: 0.8rem 1rem;
   color: #fff;
+  text-align: center;
 }
 
 .item {
@@ -64,7 +65,8 @@ body {
 }
 
 .hold{
-  border: 5px solid #eee;
+  border: 2px solid rgba(24, 180, 227);
+  background: rgba(142,215,237, 0.8);
 }
 
 .hide{
@@ -72,6 +74,8 @@ body {
 }
 
 .hovered{
-  border-top: 2px solid #8ed7ed;
+  border-top: 1px solid rgb(13, 133, 184, 0.8);
+  background: linear-gradient(45deg, #98dcb7, rgb(68, 150, 185, 0.8), rgb(142, 144, 203, 0.8), rgb(200, 143, 185, 0.8), rgb(226, 157, 188, 0.8), #f283b5);
+  border-radius: 20px;
 }
 
